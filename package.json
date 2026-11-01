@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "pg": "^8.23.1",
+    "pg-format": "^1.0.4"
+  },
+  "scripts": {
+    "seed": "node db/seeds/seed-run.js"
+  }
+}
