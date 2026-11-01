@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS otc_pos_dev;
+CREATE DATABASE otc_pos_dev;
