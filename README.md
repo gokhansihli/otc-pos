@@ -2,6 +2,8 @@
 
 Node.js and Express backend built for a desktop Pharmacy OTC Point of Sale (POS) system. It manages inventory, atomic checkout transactions, customer records, and custom error handling backed by a local PostgreSQL database.
 
+---
+
 ## Tech Stack
 
 - **Runtime:** Node.js
@@ -10,20 +12,6 @@ Node.js and Express backend built for a desktop Pharmacy OTC Point of Sale (POS)
 - **Architecture:** Modular MVC (Model-View-Controller)
 
 ---
-
-## Project Structure
-
-```text
-backend/
-├── config/             # Database connection & environment configuration
-├── controllers/        # Business logic for products, sales, customers, etc.
-├── errors/             # Custom error handling middleware & PSQL error translation
-├── models/             # Database queries & CRUD operations
-├── routes/             # API endpoint definitions
-├── middleware/         # Auth, validation, or request-logging middleware
-├── server.js           # App entry point
-└── package.json
-```
 
 ## Getting Started
 
